@@ -7,8 +7,8 @@ interface Props {
 const { title, body } = Astro.props;
 ---
 
-<li class="link-card" id={title}>
-	<a href=`#{title}`>
+<li class="link-card">
+	<a href={`#${title}`}>
 		<h2>
 			{title}
 			<span>&rarr;</span>
